@@ -1,0 +1,114 @@
+
+@media only screen and (max-width: 600px) {
+
+  .home,.ctag,.python{
+    font-size: 15px;
+
+  }
+  .ctag{
+    margin-left: 10px;
+  }
+
+  .python{
+    margin-left: 5px;
+  }
+  .home{
+    margin-left:10%;
+  }
+  .img{
+    width: 20px;
+  }
+  .homelogo{
+    font-size: 10px;
+
+
+
+
+  }
+  #header{
+    margin-left:2px;
+  }
+  #head-img{
+    margin-left: 20px;
+    margin-right: -15px;
+  }
+  #container{
+    justify-content: space-between;
+  }
+  #installation{
+    display: grid;
+
+
+
+  }
+  #content{
+    font-size: 14px;
+    margin-top: 0px;
+  }
+  #grid1-content, #grid2-content, #grid3-content, #grid4-content, #grid5-content, #grid6-content, #grid7-content, #grid8-content, #grid9-content{
+
+   font-size: 15px;
+
+}
+#c-intro{
+  width:60%;
+  font-size: 14;
+  margin-left: 20%;
+
+}
+#head-container{
+  width: 90%;
+  margin-left: 0;
+  font-size: 13.5px;
+}
+#lead-img{
+  width: 130px;
+  height: 100px;
+}
+#installation{
+  background-color: white;
+  border: 3px solid white;
+  border-radius: 25px;
+
+}
+#content{
+  background-color: #e4ebf0;
+  border: 3px solid white;
+  border-radius: 25px;
+
+}
+#container{
+  background-color: white;
+}
+html{
+  background-color: black;
+}
+#grid-container{
+  font-size: 20px;
+}
+#window, #mac, #linux{
+  font-size: 12px;
+}
+.wind-image, .mac-image, .linux-image{
+ width: 100px;
+}
+.dev-footer,.dev-about{
+  font-size: 13px;
+}
+.wartburg-gdsc{
+  font-size: 13px;
+}
+#content-para{
+  margin-top: px;
+}
+.homelogo:hover{
+  font-size: 11px;
+}
+.home:hover,.ctag:hover,.python:hover{
+  font-size: 16px;
+}
+.wind-title, .mac-title ,.linux-title{
+  font-family: 'Lora', sans-serif;
+  font-size: 30px;
+  color:#ba5952;
+}
