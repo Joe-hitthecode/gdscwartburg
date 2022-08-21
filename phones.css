@@ -140,3 +140,63 @@ html{
 .style-name{
   font-size: 14px;
 }
+
+
+
+@media only screen and (max-width: 412px) {
+ #header{
+  margin-right: -30px;
+ }
+ #head-img{
+  margin-left: -19px;
+ }
+ #window, #mac, #linux{
+  font-size: 10px;
+  background-color: white;
+  width: 80%;
+  margin-left: 40px;
+  border-radius: 15px;
+}
+.linux-terminal{
+  width: 80%;
+}
+.linux-terminal:hover{
+  width: 90%;
+}
+#content{
+  width:90%;
+}
+#head-container{
+  width: 70%;
+  margin-left:15px;
+  border-radius: 10px;
+}
+#card-content{
+
+  width: 100%;
+}
+.linkedin-image,.github-image, .insta-image{
+  width: 20%;
+}
+.github-image{
+  margin-right: -45px;
+  margin-left: 30px;
+ 
+}
+.web-footer{
+  width: 90%;
+  margin-left: 2px;
+  border-radius: 10px;
+  
+}
+.wartburg-gdsc,.dev-about, .dev-footer{
+  font-size: 11px;
+}
+#container{
+  width: 93%;
+  border-radius: 5px;
+}
+
+
+}
+
