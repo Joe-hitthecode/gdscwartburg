@@ -27,10 +27,14 @@
   }
   #header{
     margin-left:2px;
+    margin-right: 40px;;
+    width: 200px;
+    
+    text-align: center;
   }
   #head-img{
     margin-left: 20px;
-    margin-right: -15px;
+    margin-right: -95px;
   }
   #container{
     justify-content: space-between;
@@ -42,12 +46,14 @@
 
   }
   #content{
-    font-size: 14px;
+    font-size: 12px;
     margin-top: 0px;
+    width: 95%;
+    margin-left: 10px;
   }
   #grid1-content, #grid2-content, #grid3-content, #grid4-content, #grid5-content, #grid6-content, #grid7-content, #grid8-content, #grid9-content{
 
-   font-size: 15px;
+   font-size: 12px;
 
 }
 #c-intro{
@@ -57,9 +63,11 @@
 
 }
 #head-container{
-  width: 90%;
+  width: 78.9%;
   margin-left: 0;
-  font-size: 13.5px;
+  font-size: 11.5px;
+  margin-left: 20px;
+  
 }
 #lead-img{
   width: 130px;
@@ -67,8 +75,13 @@
 }
 #installation{
   background-color: white;
-  border: 3px solid white;
+  border: 2px solid white;
   border-radius: 25px;
+  width: 88%;
+  margin-left: 20px;
+  
+
+  
 
 }
 #content{
@@ -84,10 +97,10 @@ html{
   background-color: black;
 }
 #grid-container{
-  font-size: 20px;
+  font-size: 18px;
 }
 #window, #mac, #linux{
-  font-size: 12px;
+  font-size: 10px;
 }
 .wind-image, .mac-image, .linux-image{
  width: 100px;
@@ -111,4 +124,19 @@ html{
   font-family: 'Lora', sans-serif;
   font-size: 30px;
   color:#ba5952;
+}
+.rotate{
+  width: 50px;
+}
+
+}
+.terminal-png{
+  width: 80%;
+  margin-bottom: 20px;
+}
+.terminal-png:hover{
+  width: 90%;
+}
+.style-name{
+  font-size: 14px;
 }

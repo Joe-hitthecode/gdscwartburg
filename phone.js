@@ -16,7 +16,7 @@ let documentBreakPoint = 600;
       arrowDom[0].style.marginRight = "800px";
       //arrowDom[0].style.color = "white";
       arrowDom[0].style.display = "flex";
-      arrowDom[0].style.width = "55%";
+      arrowDom[0].style.width = "49%";
 
 
 
@@ -31,7 +31,7 @@ let documentBreakPoint = 600;
       arrowDom[1].style.marginRight = "800px";
       //arrowDom[1].style.color = "white";
       arrowDom[1].style.display = "flex";
-      arrowDom[1].style.width = "55%";
+      arrowDom[1].style.width = "49%";
 
 
     }
@@ -48,7 +48,7 @@ let documentBreakPoint = 600;
      arrowDom[2].style.marginRight = "800px";
     // arrowDom[2].style.color = "white";
     arrowDom[2].style.display = "flex";
-    arrowDom[2].style.width = "55%";
+    arrowDom[2].style.width = "49%";
 
 
 
@@ -68,7 +68,7 @@ let documentBreakPoint = 600;
      arrowDom[3].style.marginRight = "800px";
      //arrowDom[3].style.color = "white";
      arrowDom[3].style.display = "flex";
-     arrowDom[3].style.width = "55%";
+     arrowDom[3].style.width = "49%";
 
 
    }
@@ -84,7 +84,7 @@ let documentBreakPoint = 600;
      arrowDom[4].style.marginRight = "800px";
      //arrowDom[4].style.color = "white";
      arrowDom[4].style.display = "flex";
-     arrowDom[4].style.width = "55%";
+     arrowDom[4].style.width = "49%";
 
    }
 
@@ -99,7 +99,7 @@ let documentBreakPoint = 600;
      arrowDom[5].style.marginRight = "800px";
      //arrowDom[5].style.color = "white";
      arrowDom[5].style.display = "flex";
-     arrowDom[5].style.width = "55%";
+     arrowDom[5].style.width = "49%";
 
 
    }
@@ -114,7 +114,7 @@ let documentBreakPoint = 600;
      arrowDom[6].style.marginRight = "800px";
      //arrowDom[6].style.color = "white";
      arrowDom[6].style.display = "flex";
-     arrowDom[6].style.width = "55%";
+     arrowDom[6].style.width = "49%";
 
 
    }
@@ -129,7 +129,7 @@ let documentBreakPoint = 600;
      arrowDom[7].style.marginRight = "800px";
      //arrowDom[7].style.color = "white";
      arrowDom[7].style.display = "flex";
-     arrowDom[7].style.width = "55%";
+     arrowDom[7].style.width = "49%";
 
    }
    dropdown9 = ()=>{
@@ -143,7 +143,7 @@ let documentBreakPoint = 600;
      arrowDom[8].style.marginRight = "800px";
      //arrowDom[8].style.color = "white";
      arrowDom[8].style.display = "flex";
-     arrowDom[8].style.width = "55%";
+     arrowDom[8].style.width = "49%";
 
 
 
