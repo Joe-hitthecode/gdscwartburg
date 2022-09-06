@@ -93,7 +93,9 @@ body{
     margin-left: 220px;
     margin-right: 220px;
     font-size: 18px;
-    background-color: #5d6f85;
+    background-color: black;
+    color: white;
+
 }
 .linux-image{
     width: 150px;
@@ -295,7 +297,7 @@ body{
 }
 .style-name{
   color: #314452;
-  font-size: 20px;
+  font-size: 18px;
 }
 .style-title{
   color:#40373a
@@ -364,4 +366,13 @@ table{
 }
 th{
   font-size: 25px;
+}
+#cs-vs-py{
+  text-align: center;
+  font-size:23px;
+  font-weight: bold;
+  
+}
+#adv{
+  margin-top: 2px;
 }

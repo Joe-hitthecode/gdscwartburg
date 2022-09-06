@@ -137,9 +137,6 @@ html{
 .terminal-png:hover{
   width: 90%;
 }
-.style-name{
-  font-size: 14px;
-}
 
 
 
@@ -196,7 +193,33 @@ html{
   width: 93%;
   border-radius: 5px;
 }
+.linkedin-image:hover,.github-image:hover, .insta-image:hover{
+width: 10%;
+}
+}
+
+
+
+
+
+@media only screen and (max-width: 375px)  {
+
+#content-para{
+  
+}
+.intro-text{
+  font-size: 15px;
+}
+#container{
+  margin-left: 8px;
+}
+#header{
+  margin-left: 20px;
+}
+
+
 
 
 }
+
 

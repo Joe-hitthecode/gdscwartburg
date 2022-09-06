@@ -1,8 +1,9 @@
-let documentBreakPoint = 600;
+const documentBreakPoint = [600,412, 375]
 
 
 
- if(document.documentElement.clientWidth < documentBreakPoint)
+
+ if(document.documentElement.clientWidth < documentBreakPoint[0])
  {
     dropdown1 = () =>{
       document.getElementById("dropdown1").src = "images/drop-up.svg";
@@ -121,10 +122,10 @@ let documentBreakPoint = 600;
    dropdown8 = ()=>{
      document.getElementById("dropdown8").src = "images/drop-up.svg";
      arrowDom[7].style.marginBottom = "20px";
-     arrowDom[7].innerHTML = `<p> Variable is a very important concept in programming.
-     The two programming languages have different approach in storing data in a variable.
-     When learning a new langauge it is very essential to understand how variables are implemented.
-     Variable can be use to store information using a specific data type and it can be access at any time in the program</p> `;;
+     arrowDom[7].innerHTML = `<p> Loops are used frequently to allow our program to execute repeatedly. There are two kinds of loops. "While" loop
+     which is a indefinite loop and "for" loop a definite loop. The implementation of "for" loop in c# is completely different from how it is implemented in python.
+     As a python developer it will take time to get use to the syntax. But the overall concept still remain. The program is going to loop at a specific range of time.
+     There are also some cool looping structure in c# such as the "do" while loop and the foreach loop.</p> `;
      arrowDom[7].style.background = "#c7f0ec";
      arrowDom[7].style.marginRight = "800px";
      //arrowDom[7].style.color = "white";
@@ -135,10 +136,12 @@ let documentBreakPoint = 600;
    dropdown9 = ()=>{
      document.getElementById("dropdown9").src = "images/drop-up.svg";
      arrowDom[8].style.marginBottom = "20px";
-     arrowDom[8].innerHTML = `<p> Variable is a very important concept in programming.
-     The two programming languages have different approach in storing data in a variable.
-     When learning a new langauge it is very essential to understand how variables are implemented.
-     Variable can be use to store information using a specific data type and it can be access at any time in the program</p> `;;
+     arrowDom[8].innerHTML = `<p> Classes are very important to understand while learning  object oriented programming. Implementing classes in both
+     programming language require having a constructor which is the first method that is called when a class is created. Also we have
+     the chance to write method in our classes. Based on our class we can create object in our program that can have different properties and behavior.
+     As a python developer while  implementing classes in c# it is very quick to realize the importance of object oriented  programming because the
+     structure of the language syntax convey object oriented programming explicitly. A good example is that you can explicitly name your classes
+     private and public in c#. How cool is that? </p> `;;
      arrowDom[8].style.background = "#c7f0ec";
      arrowDom[8].style.marginRight = "800px";
      //arrowDom[8].style.color = "white";
@@ -150,5 +153,13 @@ let documentBreakPoint = 600;
 
 
    }
+
+ }
+
+ if(document.documentElement.clientWidth <= documentBreakPoint[2]){
+  lead_name_id = document.getElementById("lead-id")
+  lead_name_id.style.fontSize = "14px";
+
+
 
  }
